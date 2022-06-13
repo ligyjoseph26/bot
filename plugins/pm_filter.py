@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📢 Join Channel 📢', url ="https://t.me/+VQZTK6EdBAo5MjU1")
+                            InlineKeyboardButton('📢 Join Channel 📢', url ="https://t.me/+andrew_bot_files")
                         ],
                         [
                             InlineKeyboardButton('🔄 Download 🔄 ', url = msg.link)
