@@ -484,7 +484,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Developers', url='https://t.me/DTG_BOTZ'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
